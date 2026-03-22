@@ -1,0 +1,31 @@
+# --- PlatformIO ---
+# Esclude la cartella dove avvengono le compilazioni (.pio)
+**/.pio/
+# Esclude i file di database per l'autocompletamento di VS Code
+**/.vscode/
+# Esclude i file di librerie scaricate localmente
+**/libdeps/
+
+# --- Arduino Nano ESP32 / ESP32 ---
+# File temporanei di sistema e log
+*.log
+*.tmp
+*.bak
+
+# --- Sistema Operativo ---
+# Windows
+Thumbs.db
+desktop.ini
+# macOS
+.DS_Store
+
+# --- File di configurazione sensibili (opzionale) ---
+# Se crei un file per salvare le tue password Wi-Fi, escludilo!
+**/include/secrets.h
+
+# Esclude eventuali eseguibili di sistema (se compili tool su PC)
+**/*.exe
+**/*.out
+**/*.app
+**/*.so
+**/*.dll
